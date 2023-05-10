@@ -1,5 +1,6 @@
 package com.example.eventoboton
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -18,10 +19,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun vistaApp(){
-
-        var boton = findViewById<Button>(R.id.boton_main)
+        var boton = findViewById<Button>(R.id.buttonmain)
         var campoTexto = findViewById<EditText>(R.id.campoNombre)
         var campoTextoCopia = campoTexto.text
+
 
         var boton2 = Boton("Presioname","center")
         var disenio = ButtonDesign("Presioname","Center",40)
@@ -30,12 +31,17 @@ class MainActivity : AppCompatActivity() {
         boton2.inflar()
 
         boton.setOnClickListener {
-
+            //Intent Explicito
+            var intent = Intent(this, SegundaActividad::class.java)
             Log.i("EventoBoton","Le has dado click, el nombre es : ${campoTextoCopia}")
-            Toast.makeText(this,"Pesione el boton y tu nombre es " +
+            Toast.makeText(this,"Presione el boton y tu nombre es " +
                     ": ${campoTextoCopia}",Toast.LENGTH_LONG).show()
-            boton2.onclick()
-            boton.setBackgroundColor(ContextCompat.getColor(this, com.google.android.material.R.color.abc_decor_view_status_guard))
+
+            intent.putExtra("valor", "Hola " + campoTextoCopia)
+            startActivity(intent)
+
+//            boton2.onclick()
+//            boton.setBackgroundColor(ContextCompat.getColor(this, com.google.android.material.R.color.abc_decor_view_status_guard))
 
         }
 
