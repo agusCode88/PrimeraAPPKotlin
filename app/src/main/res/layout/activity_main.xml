@@ -25,8 +25,8 @@
         android:id="@+id/meteorito"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
         android:scaleType="fitXY"
         android:src="@drawable/meteorito"
         app:layout_constraintBottom_toTopOf="@id/campoNombre"
@@ -46,6 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/buttonmain"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/meteorito" />
 
@@ -53,11 +54,25 @@
         android:id="@+id/buttonmain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
-        android:text="Ingresa aquí"
+        android:layout_marginBottom="100dp"
+        android:text="Registrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/campoNombre" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Comparte aquí"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonmain" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
