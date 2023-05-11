@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EventoBoton</string>
+    <string name="boton_camara">Camara</string>
+    <string name="activity_foto">Toma una foto con tu celular</string>
+    <string name="tomar_foto">Tomar foto</string>
 </resources>
