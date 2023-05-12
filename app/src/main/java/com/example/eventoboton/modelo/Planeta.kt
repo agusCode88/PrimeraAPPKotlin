@@ -8,14 +8,16 @@ data class Planeta(
     val atmosfera: Float,
     val distancia: Int,
     var nombreLuna: String,
-    var diaSemana: String?) : Parcelable{
+    var diaSemana: String?
+) : Parcelable {
 
-     constructor(parcel: Parcel) : this (
-    parcel.readString()!!,
-    parcel.readFloat(),
-    parcel.readInt(),
-    parcel.readString()!!,
-    parcel.readString())
+    constructor(parcel: Parcel) : this(
+        parcel.readString()!!,
+        parcel.readFloat(),
+        parcel.readInt(),
+        parcel.readString()!!,
+        parcel.readString()
+    )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(nombre)

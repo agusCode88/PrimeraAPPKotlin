@@ -39,51 +39,49 @@
         android:id="@+id/campoNombre"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:hint="Ingresa tu nombre"
         android:textAlignment="center"
+        android:textColor="#A8CBEA"
         android:textColorHint="#A8CBEA"
-        android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/meteorito"
         app:layout_constraintBottom_toTopOf="@id/buttonmain"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/meteorito" />
 
     <Button
         android:id="@+id/buttonmain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrar"
         android:layout_marginTop="30dp"
-        app:layout_constraintTop_toBottomOf="@id/campoNombre"
+        android:text="Registrar"
         app:layout_constraintBottom_toTopOf="@id/buttonShare"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/campoNombre" />
 
     <Button
         android:id="@+id/buttonShare"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:text="Comparte aquí"
         android:layout_marginTop="30dp"
-        app:layout_constraintTop_toBottomOf="@id/buttonmain"
+        android:text="Comparte aquí"
         app:layout_constraintBottom_toTopOf="@id/btnCamera"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@id/buttonmain" />
 
     <Button
         android:id="@+id/btnCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/boton_camara"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="80dp"
-        app:layout_constraintTop_toBottomOf="@id/buttonShare"
+        android:text="@string/boton_camara"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonShare" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

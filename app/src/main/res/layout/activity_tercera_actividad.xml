@@ -34,7 +34,7 @@
         android:layout_height="0dp"
         android:text="@string/tomar_foto"
         android:layout_margin="30dp"
-        android:layout_weight="1.2"
+        android:layout_weight="1.1"
         android:textSize="25sp"/>
 
 </LinearLayout>
