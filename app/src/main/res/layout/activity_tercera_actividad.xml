@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="#1E0C3E"
+    tools:context=".TerceraActividad">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_weight="2"
+        android:textColor="#A8CBEA"
+        android:text="@string/activity_foto"/>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_weight="6"
+        android:src="@drawable/nebula"/>
+
+    <Button
+        android:id="@+id/btntakepicture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/tomar_foto"
+        android:layout_margin="30dp"
+        android:layout_weight="1.2"
+        android:textSize="25sp"/>
+
+</LinearLayout>
