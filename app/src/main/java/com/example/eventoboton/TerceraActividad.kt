@@ -22,7 +22,6 @@ class TerceraActividad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTerceraActividadBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.btnTakePicture.setOnClickListener { takeAPicture() }
 
 
