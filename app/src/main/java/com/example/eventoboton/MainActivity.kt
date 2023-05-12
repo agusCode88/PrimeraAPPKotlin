@@ -7,16 +7,18 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.core.content.ContextCompat
 import com.example.acividadboton.Boton
 import com.example.acividadboton.ButtonDesign
+import com.example.eventoboton.databinding.ActivityMainBinding
 import com.example.eventoboton.modelo.Planeta
 
+private lateinit var binding: ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
         vistaApp()
     }
 
@@ -53,16 +55,19 @@ class MainActivity : AppCompatActivity() {
         }
         // Intent implicito
         botonCompartir.setOnClickListener({
-
             var intent = Intent()
-
             intent.action = Intent.ACTION_SEND
             intent.putExtra(Intent.EXTRA_TEXT,"Hola te saludo desde la Galaxia")
             intent.type = "text/plain"
             startActivity(Intent.createChooser(intent,"Selecciona tu APP:"))
-
-
         })
+
+        binding.btnActivityCamera.setOnClickListener {
+            // Vamos a llamar a otra actividad
+            val intentCamera = Intent(this,TerceraActividad::class.java)
+            startActivity(intentCamera)
+
+        }
 
     }
 }
