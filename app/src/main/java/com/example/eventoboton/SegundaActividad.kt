@@ -29,7 +29,7 @@ class SegundaActividad : AppCompatActivity() {
             nombrePlaneta.text  = planetaRescatado.nombre
 
         } else {
-            textoResultado.text = "No llego"
+            textoResultado.text = "No llego aca"
 
         }
 
