@@ -9,9 +9,11 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.eventoboton.databinding.ActivityTerceraActividadBinding
+
 
 private lateinit var binding: ActivityTerceraActividadBinding
 var requestPersmissionCode = 2
@@ -22,6 +24,11 @@ class TerceraActividad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTerceraActividadBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        var toolbar = findViewById<Toolbar>(R.id.toolbar_id)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         binding.btnTakePicture.setOnClickListener { takeAPicture() }
 
 
