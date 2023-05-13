@@ -7,11 +7,15 @@
     android:background="#1E0C3E"
     tools:context=".SegundaActividad">
 
+    <include
+        android:id="@+id/toolbar_id"
+        layout="@layout/appbar_app"/>
+
     <TextView
         android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Texto Ejemplo"
+        android:text="@string/texto_ejemplo"
         android:textColor="#A8CBEA"
         android:textSize="30sp"
         android:textStyle="bold"

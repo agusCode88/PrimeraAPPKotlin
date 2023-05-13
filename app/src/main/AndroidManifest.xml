@@ -20,7 +20,12 @@
             android:exported="false" />
         <activity
             android:name=".SegundaActividad"
-            android:exported="false" />
+            android:exported="true">
+        <meta-data
+            android:name="android.support.v7.app.ActionBar"
+            android:resource=".MainActivity"></meta-data>
+    </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

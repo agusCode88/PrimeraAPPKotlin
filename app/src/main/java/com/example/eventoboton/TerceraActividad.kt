@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.eventoboton.databinding.ActivityMainBinding
@@ -27,6 +28,10 @@ class TerceraActividad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityTerceraActividadBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        var toolbar = findViewById<Toolbar>(R.id.toolbar_id)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         // Asignación de un listener al botón "btntakepicture" que llama a la función takeAPicture()
         binding.btntakepicture.setOnClickListener { takeAPicture() }

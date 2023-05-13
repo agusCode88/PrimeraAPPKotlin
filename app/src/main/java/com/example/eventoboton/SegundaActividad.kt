@@ -6,9 +6,13 @@ También se importa la clase Planeta desde el paquete modelo.
 */
 package com.example.eventoboton
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.widget.TextView
+import androidx.appcompat.view.menu.MenuBuilder
+import androidx.appcompat.widget.Toolbar
 import com.example.eventoboton.modelo.Planeta
 
 class SegundaActividad : AppCompatActivity() {
@@ -17,6 +21,10 @@ class SegundaActividad : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         // Se establece el layout de la actividad.
         setContentView(R.layout.activity_segunda_actividad)
+
+        var toolbar = findViewById<Toolbar>(R.id.toolbar_id)
+        setSupportActionBar(toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         // Se crean variables para almacenar los TextView del layout.
         var textoResultado = findViewById<TextView>(R.id.txtResult)
@@ -38,7 +46,32 @@ class SegundaActividad : AppCompatActivity() {
 
     }
 
+    @SuppressLint("RestrictedApi")
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.appbar_menu, menu)
+        if (menu is MenuBuilder) {
+            menu.setOptionalIconsVisible(true)
 
+        }
+        return true
+
+    }
+
+    fun onLoadItemsInMenu(toolbar: Toolbar) {
+        toolbar.setOnMenuItemClickListener {
+            when (it.itemId) {
+                R.id.action_search -> {
+                    true
+                }
+
+                R.id.action_share -> {
+                    true
+                }
+
+                else -> false
+            }
+        }
+    }
 }
 /*En resumen, este código define una actividad que muestra información recibida desde la actividad
 principal, y se utiliza la clase Planeta del paquete modelo para recuperar un objeto Planeta enviado

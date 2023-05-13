@@ -3,4 +3,7 @@
     <string name="boton_camara">Camara</string>
     <string name="activity_foto">Toma una foto con tu celular</string>
     <string name="tomar_foto">Tomar foto</string>
+    <string name="ingresa_tu_nombre">Ingresa tu nombre</string>
+    <string name="compartir">Compartir</string>
+    <string name="texto_ejemplo">Texto Ejemplo</string>
 </resources>
