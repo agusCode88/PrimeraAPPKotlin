@@ -8,6 +8,11 @@
     android:background="@color/cardview_light_background"
     tools:context=".TerceraActividad">
 
+    <include
+        android:id="@+id/appbar_id"
+        layout="@layout/appbar_app"
+        />
+
 <TextView
     android:layout_width="match_parent"
     android:layout_height="0dp"
