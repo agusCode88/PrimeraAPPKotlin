@@ -1,12 +1,12 @@
 package com.example.eventoboton
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import com.example.acividadboton.Boton
 import com.example.acividadboton.ButtonDesign
 import com.example.eventoboton.databinding.ActivityMainBinding
@@ -14,12 +14,17 @@ import com.example.eventoboton.modelo.Planeta
 
 private lateinit var binding: ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ActionBarActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+         //var toolbar = findViewById<Toolbar>(R.id.toolbar_id)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        //loadActionBarInActivity(toolbar)
+        //setSupportActionBar(toolbar)
+
         vistaApp()
+
     }
 
     fun vistaApp(){

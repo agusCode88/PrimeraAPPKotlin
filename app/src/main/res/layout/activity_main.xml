@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <include
         android:id="@+id/toolbar_id"
         layout="@layout/appbar_app"/>

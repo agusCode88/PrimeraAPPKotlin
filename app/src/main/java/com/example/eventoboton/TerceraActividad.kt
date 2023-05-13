@@ -19,15 +19,16 @@ private lateinit var binding: ActivityTerceraActividadBinding
 var requestPersmissionCode = 2
 var requestPersmissionCamera = 3
 
-class TerceraActividad : AppCompatActivity() {
+class TerceraActividad : ActionBarActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityTerceraActividadBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var toolbar = findViewById<Toolbar>(R.id.toolbar_id)
-        setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        _toolbar = findViewById<Toolbar>(R.id.toolbar_id)
+        loadActionBarInActivity(_toolbar as Toolbar)
+        loadButtonBackInScreen(true)
+        loadItemsOnMenuActionBar(_toolbar as Toolbar)
 
         binding.btnTakePicture.setOnClickListener { takeAPicture() }
 
