@@ -28,18 +28,17 @@ class SegundaActividad : AppCompatActivity() {
 
         if (rescatado != null && planetaRescatado != null) {
             textoResultado.text = rescatado
-            nombrePlaneta.text  = planetaRescatado.nombre
+            nombrePlaneta.text = planetaRescatado.nombre
 
         } else {
             textoResultado.text = "No llego"
-
         }
     }
 
     @SuppressLint("RestrictedApi")
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.appbar_menu,menu)
-        if(menu is MenuBuilder){
+        menuInflater.inflate(R.menu.appbar_menu, menu)
+        if (menu is MenuBuilder) {
             menu.setOptionalIconsVisible(true)
 
         }
@@ -47,14 +46,15 @@ class SegundaActividad : AppCompatActivity() {
         //return super.onCreateOptionsMenu(menu)
     }
 
-    fun onLoadItemsInMenu(toolbar: Toolbar){
-        toolbar.setOnMenuItemClickListener{
-            when(it.itemId) {
-            R.id.action_search -> {
-                // hacer la busqueda
-                true
-            }
-                R.id.action_share ->{
+    fun onLoadItemsInMenu(toolbar: Toolbar) {
+        toolbar.setOnMenuItemClickListener {
+            when (it.itemId) {
+                R.id.action_search -> {
+                    // hacer la busqueda
+                    true
+                }
+
+                R.id.action_share -> {
                     // compartir algo
                     true
                 }
@@ -63,6 +63,4 @@ class SegundaActividad : AppCompatActivity() {
             }
         }
     }
-
-
 }
