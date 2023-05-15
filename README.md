@@ -33,7 +33,7 @@
 * Persistencia de Datos en android 
 
 17/05/23
-** Clase 3 : Desarrollando nuestra primera app empresarial ** 
+**Clase 3 : Desarrollando nuestra primera app empresarial ** 
 
 * Configurar un nuevo proyecto en Android 
 * Reutilizar Toolbar 
@@ -47,22 +47,25 @@
 * 3 Fragmentos interiores 
 
 19/05/23
-** Clase 5 : Persistencia de Datos en Android ** 
+**Clase 5 : Persistencia de Datos en Android** 
 
 * Shared Preferences en Android 
 * Login para la aplicacion 
 
 20/05/23
-Clase 6 : Primera Entrega Portafolio  
+**Clase 6 : Primera Entrega Portafolio**  
+
+Para esta entrega servira de ayuda los contenidos de la Clase 2 del Modulo 6 
 
 * Entrega del repositorio en GitHub del proyecto
-* Archivo .Readme del proyecto con el detalle de la aplicacion 
+* Archivo .Readme del proyecto con el detalle de la aplicacion. 
+
 Debe contener : 
  
-   * Link a mayor informacion del proyecto, piuede ser PDF , PPT , Pagina Web , Google Sites, etc , etc
-   * Pantallazos o vistas de la App
+   * Link a mayor informacion del proyecto, puede ser PDF , PPT , Pagina Web , Google Sites, etc , etc
+   * Pantallazos, MockUps  o vistas de la App.
    * Story Telling del proyecto.
-   * Informacion actualizada del proyecto indicando los avances
+   * Informacion actualizada del proyecto indicando los avances hasta la fecha.
 
 * Al final de la clases l@s alumn@s deberan realizar el commit y Push correspondiente a  los avances personales del proyecto portefolio.
 
