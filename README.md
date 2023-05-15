@@ -3,7 +3,7 @@
                                  MODULO 6 - Desarrollo de aplicaciones moviles para empresas.
 
 15/05/2023
-**Clase 1 - Jetcpack Conpose en Android** 
+**Clase 1 - Jetcpack Compose en Android** 
 
 16/05/23
 **Clase 2: Design Thinking**
