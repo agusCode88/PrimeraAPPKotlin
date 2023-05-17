@@ -40,19 +40,21 @@
 17/05/23
  **Clase 3 : Desarrollando nuestra primera app empresarial ** 
 
-*Creacion de un proyecto en Blanco 
-*Activar Data Binding 
-*Invocar Data Binding en el activity 
-*Reutilizacion del AppbAR 
-*Seteo de Toolber en la vista  
+* Creacion de un proyecto en Blanco 
+* Activar Data Binding 
+* Invocar Data Binding en el activity 
+* Reutilizacion del AppbAR 
+* Seteo de Toolbar en la vista  
 
-*Creacion de un Navigation Drawer 
-*Creacion de un FrameLayout para los fragmentos 
-*Creacion de un NagivationView 
-*Creacion de una cabecera para al NavigationDrawer 
-*Creacion de un menu para el cuerpo del Navigation 
-*Trabajando con vectores de imagenes
-*Configurando el menu en el Activity 
+* Creacion de un Navigation Drawer 
+* Creacion de un FrameLayout para los fragmentos 
+* Creacion de un NagivationView 
+* Creacion de una cabecera para al NavigationDrawer 
+* Creacion de un menu para el cuerpo del Navigation 
+* Trabajando con vectores de imagenes
+* Configurando el menu en el Activity 
+
+Recursos de la clase : https://developer.android.com/guide/navigation/navigation-ui?hl=es-419#add_a_navigation_drawer
 
 
 18/05/23
