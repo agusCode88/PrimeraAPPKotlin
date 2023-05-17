@@ -38,7 +38,7 @@
 * Persistencia de Datos en android 
 
 17/05/23
-**Clase 3 : Desarrollando nuestra primera app empresarial ** 
+ **Clase 3 : Desarrollando nuestra primera app empresarial ** 
 
 * Configurar un nuevo proyecto en Android 
 * Reutilizar Toolbar 
@@ -56,7 +56,7 @@
 * Aplicacion con fragmentos en un contenedor 
 
 19/05/23
-**Clase 5 : Creando los Fragment en nuestra App Empresarial ** 
+ **Clase 5 : Creando los Fragment en nuestra App Empresarial** 
 
 * Configuraando cada fragmento dentro de la app 
 * Creando los layouts para cada fragment.
@@ -84,16 +84,18 @@ indicando la rama y el ultimo Commit a revisar, hasta las 00 horas del dia sabad
 
 email: agus.romero.salazar@gmail.com
 
-22/05/2023  Clase 7 : Persistencia de Datos en Android 
+22/05/2023 
+**Clase 7 : Persistencia de Datos en Android** 
 
 * Shared Preferences en Android 
 * SQLITE 
 * Libreria ROOM en Android 
 * Creando un singleton de Instancia de La Base de datos 
 * Utilizacion de interfaces como DAO
-* Implementaciones CRUD  a nuestra app 
+* Implementaciones CRUD de base de datos  a nuestra app 
 
-Clase 8.- Recycler Views y Card Views en Android 
+23/05/2023
+**Clase 8.- Recycler Views y Card Views en Android** 
 
 * Trayendo datos de nuestro modelo a una lista 
 * Layout para el listado de elementos ( Recycler View) 
