@@ -37,20 +37,25 @@
 
 * Configurar un nuevo proyecto en Android 
 * Reutilizar Toolbar 
-* Navigation Drawer 
+* Navigation Drawer
+* Navigation View  
 * Imagenes y vectores para al Navigation Drawer 
+* Configuracion en Kotlin del Navigation Drawer 
 
 18/05/23
 **Clase 4 : Creacion de Fragmentos en Android **
 
-* Actividad Principal 
-* 3 Fragmentos interiores 
+* Que son los fragments en Android 
+* Desarrollo de 2 aplicaciones de ejemplo de fragmentos
+* Aplicacion con fragmentos estaticos
+* Aplicacion con fragmentos en un contenedor 
 
 19/05/23
-**Clase 5 : Persistencia de Datos en Android** 
+**Clase 5 : Creando los Fragment en nuestra App Empresarial ** 
 
-* Shared Preferences en Android 
-* Login para la aplicacion 
+* Configuraando cada fragmento dentro de la app 
+* Creando los layouts para cada fragment.
+* Ciclo de vida de cada fragmento .
 
 20/05/23
 **Clase 6 : Primera Entrega Portafolio**  
@@ -67,10 +72,10 @@ Debe contener :
    * Story Telling del proyecto.
    * Informacion actualizada del proyecto indicando los avances hasta la fecha.
 
-* Al final de la clases l@s alumn@s deberan realizar el commit y Push correspondiente a  los avances personales del proyecto portefolio.
+* Al final de la clases l@s alumn@s deberan realizar el commit y Push correspondiente a  los avances personales del proyecto portafolio.
 
 El link del proyecto cuando este listo para la entrega, debe ser enviado al correo 
-indicando la rama y el ultimo Commit a revisar hasta las 00 horas del dia sabado 27 de Mayo.
+indicando la rama y el ultimo Commit a revisar, hasta las 00 horas del dia sabado 27 de Mayo.
 
 email: agus.romero.salazar@gmail.com
 
