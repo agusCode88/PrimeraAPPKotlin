@@ -40,27 +40,38 @@
 17/05/23
  **Clase 3 : Desarrollando nuestra primera app empresarial ** 
 
-* Configurar un nuevo proyecto en Android 
-* Reutilizar Toolbar 
-* Navigation Drawer
-* Navigation View  
-* Imagenes y vectores para al Navigation Drawer 
-* Configuracion en Kotlin del Navigation Drawer 
+*Creacion de un proyecto en Blanco 
+*Activar Data Binding 
+*Invocar Data Binding en el activity 
+*Reutilizacion del AppbAR 
+*Seteo de Toolber en la vista  
+
+*Creacion de un Navigation Drawer 
+*Creacion de un FrameLayout para los fragmentos 
+*Creacion de un NagivationView 
+*Creacion de una cabecera para al NavigationDrawer 
+*Creacion de un menu para el cuerpo del Navigation 
+*Trabajando con vectores de imagenes
+*Configurando el menu en el Activity 
+
 
 18/05/23
 **Clase 4 : Creacion de Fragmentos en Android **
 
 * Que son los fragments en Android 
-* Desarrollo de 2 aplicaciones de ejemplo de fragmentos
-* Aplicacion con fragmentos estaticos
-* Aplicacion con fragmentos en un contenedor 
-
-19/05/23
- **Clase 5 : Creando los Fragment en nuestra App Empresarial** 
-
 * Configuraando cada fragmento dentro de la app 
 * Creando los layouts para cada fragment.
 * Ciclo de vida de cada fragmento .
+
+19/05/23  **Clase 5.- Recycler Views y Card Views en Android** 
+
+* Trayendo datos de nuestro modelo local  a una lista 
+* Layout para el listado de elementos ( Recycler View) 
+* Layout para cada elemento del listado 
+* Uso de Adaptadores 
+* Uso de ViewHolder 
+* Configurando un Recycler View en Android 
+
 
 20/05/23
 **Clase 6 : Primera Entrega Portafolio**  
@@ -93,16 +104,6 @@ email: agus.romero.salazar@gmail.com
 * Creando un singleton de Instancia de La Base de datos 
 * Utilizacion de interfaces como DAO
 * Implementaciones CRUD de base de datos  a nuestra app 
-
-23/05/2023
-**Clase 8.- Recycler Views y Card Views en Android** 
-
-* Trayendo datos de nuestro modelo a una lista 
-* Layout para el listado de elementos ( Recycler View) 
-* Layout para cada elemento del listado 
-* Uso de Adaptadores 
-* Uso de ViewHolder 
-* Configurando un Recycler View en Android 
 
 
 
