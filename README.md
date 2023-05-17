@@ -5,6 +5,11 @@
 15/05/2023
 **Clase 1 - Jetcpack Compose en Android** 
 
+* Historia de JetcPack Compose 
+* Principales caracteristicas de la plataforma 
+* Hola mundo en Compose 
+* Creaacion de una vista simple con Compose 
+
 16/05/23
 **Clase 2: Design Thinking**
 
@@ -78,6 +83,29 @@ El link del proyecto cuando este listo para la entrega, debe ser enviado al corr
 indicando la rama y el ultimo Commit a revisar, hasta las 00 horas del dia sabado 27 de Mayo.
 
 email: agus.romero.salazar@gmail.com
+
+22/05/2023  Clase 7 : Persistencia de Datos en Android 
+
+* Shared Preferences en Android 
+* SQLITE 
+* Libreria ROOM en Android 
+* Creando un singleton de Instancia de La Base de datos 
+* Utilizacion de interfaces como DAO
+* Implementaciones CRUD  a nuestra app 
+
+Clase 8.- Recycler Views y Card Views en Android 
+
+* Trayendo datos de nuestro modelo a una lista 
+* Layout para el listado de elementos ( Recycler View) 
+* Layout para cada elemento del listado 
+* Uso de Adaptadores 
+* Uso de ViewHolder 
+* Configurando un Recycler View en Android 
+
+
+
+
+
 
 
 
