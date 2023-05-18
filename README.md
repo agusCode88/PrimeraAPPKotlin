@@ -60,10 +60,16 @@ Recursos de la clase : https://developer.android.com/guide/navigation/navigation
 18/05/23
 **Clase 4 : Creacion de Fragmentos en Android **
 
-* Que son los fragments en Android 
-* Configuraando cada fragmento dentro de la app 
+* Que son los fragments en Android ( Presentacion) 
+* Ciclo de vida de los fragmentos
+* Configuraando cada fragmento dentro de la app. 
 * Creando los layouts para cada fragment.
-* Ciclo de vida de cada fragmento .
+* Creando metodo de Transaccion de fragmentos 
+* Cargando el Fragmento principal en el Activity Main 
+* Detectando el evento click de cada funcionalidad de la app
+* Cargando cada fragmento en la App 
+* Cerrando el Drawer Navigation 
+* Controlando la rotacion en los fragmentos
 
 19/05/23  **Clase 5.- Recycler Views y Card Views en Android** 
 
