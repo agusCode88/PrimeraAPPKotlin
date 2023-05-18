@@ -71,6 +71,10 @@ Recursos de la clase : https://developer.android.com/guide/navigation/navigation
 * Cerrando el Drawer Navigation 
 * Controlando la rotacion en los fragmentos
 
+Material de estudio : https://developer.android.com/guide/fragments?hl=es-419
+
+
+
 19/05/23  **Clase 5.- Recycler Views y Card Views en Android** 
 
 * Trayendo datos de nuestro modelo local  a una lista 
