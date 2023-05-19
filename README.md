@@ -30,7 +30,8 @@
 * Navigation Drawer 
 * Iconos vectoriales 
 * Fragmentos 
-* Creacion del Modelo de una APP 
+* Creacion del Modelo de una APP
+* Creando un Provider para el Modelo. 
 * Recycler View 
 * Adaptadores y ViewHolders 
 * Recycler Item con CardView
