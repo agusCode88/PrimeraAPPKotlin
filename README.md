@@ -78,7 +78,7 @@ Material de estudio : https://developer.android.com/guide/fragments?hl=es-419
 
 19/05/23  **Clase 5.- Recycler Views y Card Views en Android** 
 
-* Preparando nuestra app con la slibrerias necesarias
+* Preparando nuestra app con las librerias necesarias
 * Dibujando el CardView para cada vuelo.
 * Modelado de un  vuelo.
 * Creando Adaptador para el Fragmento 
