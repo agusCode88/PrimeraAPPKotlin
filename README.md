@@ -77,12 +77,18 @@ Material de estudio : https://developer.android.com/guide/fragments?hl=es-419
 
 19/05/23  **Clase 5.- Recycler Views y Card Views en Android** 
 
-* Trayendo datos de nuestro modelo local  a una lista 
-* Layout para el listado de elementos ( Recycler View) 
-* Layout para cada elemento del listado 
-* Uso de Adaptadores 
-* Uso de ViewHolder 
-* Configurando un Recycler View en Android 
+* Preparando nuestra app con la slibrerias necesarias
+* Dibujando el CardView para cada vuelo.
+* Modelado de un  vuelo.
+* Creando Adaptador para el Fragmento 
+* Creando Listener para el CardView
+* Creando un ViewHolder para el adaptador
+* Pintando la vista a traves del ViewHolder
+* Uso de Picasso para la renderizacion de imagenes
+* Configuracion del adaptador en el fragmento  
+* Escuchando con los listener en el Fragmento
+* Ultimos ajustes a la app
+* Prueba de la aplicacion de vuelos 
 
 
 20/05/23
