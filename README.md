@@ -114,6 +114,20 @@ indicando la rama y el ultimo Commit a revisar, hasta las 00 horas del dia sabad
 
 email: agus.romero.salazar@gmail.com
 
+
+                                       APP2 Modulo 6 -  Persistencia de Datos en Android   
+
+Que vamos a utilizar con esta APP ?
+
+* Nuevo proyecto en Android 
+* Cobfiguracion del Data Binding 
+* Reutiloizacion de codigo para los CardViews
+* Trabajar con vectores y estados 
+* Reutilizacion de Adaptador y ViewHolder 
+* Configuracion de un RecyclerView en formna de Grilla
+
+
+
 22/05/2023 
 **Clase 7 : Persistencia de Datos en Android** 
 
