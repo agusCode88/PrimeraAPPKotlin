@@ -119,12 +119,16 @@ email: agus.romero.salazar@gmail.com
 
 Que vamos a utilizar con esta APP ?
 
-* Nuevo proyecto en Android 
-* Cobfiguracion del Data Binding 
-* Reutiloizacion de codigo para los CardViews
-* Trabajar con vectores y estados 
-* Reutilizacion de Adaptador y ViewHolder 
-* Configuracion de un RecyclerView en formna de Grilla
+* Nuevo proyecto en Android. 
+* Configuracion del Data Binding. 
+* Reutilizacion de codigo para los CardViews.
+* Trabajar con vectores y estados. 
+* Reutilizacion de Adaptador y ViewHolder. 
+* Configuracion de un RecyclerView en formna de Grilla.
+* Agregando un item de forma dinamica.
+* Elementos visuales de Material : Cuadro de Dialogo , InputText
+* Uso de Shared Preferences en Android.
+* Validando datos guardados con Shared Preferences 
 
 
 
