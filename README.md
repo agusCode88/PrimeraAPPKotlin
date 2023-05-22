@@ -171,6 +171,36 @@ Que haremos con esta APP ?
 * Actualizar un registro en Room 
 * Elimar un Registro en ROOM
 
+24/05/2023 
+**Clase 9 : ** 
+
+25/05/2023 
+**Clase 10 : ** 
+
+26/05/2023 
+**Clase 11 : **
+
+27/05/2023 
+**Clase 12 :XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ** 
+
+29/05/2023 
+**Clase 13 : **
+
+30/05/2023 
+**Clase 14 : ** 
+
+31/05/2023 
+**Clase 15 : ** 
+
+01/05/2023 
+**Clase 16 : ** 
+
+02/06/2023 
+**Clase 17 : **
+
+03/06/2023 
+**Clase 18 : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   ** 
+
 
 
 
