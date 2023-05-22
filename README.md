@@ -117,7 +117,7 @@ email: agus.romero.salazar@gmail.com
 
                                        APP2 Modulo 6 -  Persistencia de Datos en Android   
 
-Que vamos a utilizar con esta APP ?
+Que haremos con esta APP ?
 
 * Nuevo proyecto en Android. 
 * Configuracion del Data Binding. 
@@ -128,22 +128,48 @@ Que vamos a utilizar con esta APP ?
 * Agregando un item de forma dinamica.
 * Elementos visuales de Material : Cuadro de Dialogo , InputText
 * Uso de Shared Preferences en Android.
-* Validando datos guardados con Shared Preferences 
-
+* Validando datos de Usuario guardados con Shared Preferences.
+* Filtro de RecyCler View para la vista segun las SP 
+* Utilizacion de SQLITE con ROOM.
+* Creacion de una Entity en Room
+* Data Acces Object(DAO) En ROOM.
+* Creacion de la Base de datos con buenas practicas 
+* Ingresar un registro en segundo plano
+* Consultar todos los datos y cargarlos en un RecyclerView
+* Actualizar un registro en Room 
+* Elimar un Registro en ROOM
 
 
 22/05/2023 
 **Clase 7 : Persistencia de Datos en Android** 
 
-* Shared Preferences en Android 
-* SQLITE 
-* Libreria ROOM en Android 
-* Creando un singleton de Instancia de La Base de datos 
-* Utilizacion de interfaces como DAO
-* Implementaciones CRUD de base de datos  a nuestra app 
+* Nuevo proyecto en Android. 
+* Configuracion del Data Binding. 
+* Reutilizacion de codigo para los CardViews.
+* Trabajar con vectores y estados. 
+* Reutilizacion de Adaptador y ViewHolder. 
+* Configuracion de un RecyclerView en formna de Grilla.
+* Agregando un item de forma dinamica.
+* Elementos visuales de Material : Cuadro de Dialogo , InputText
+* Uso de Shared Preferences en Android.
+* Validando datos de Usuario guardados con Shared Preferences.
+* Filtro de RecyCler View para la vista segun las SP. 
 
 
+23/05/2023 
+**Clase 8 : Persistencia de Datos en Android** 
 
+* Uso de Shared Preferences en Android.
+* Validando datos de Usuario guardados con Shared Preferences.
+* Filtro de RecyCler View para la vista segun las SP 
+* Utilizacion de SQLITE con ROOM.
+* Creacion de una Entity en Room
+* Data Acces Object(DAO) En ROOM.
+* Creacion de la Base de datos con buenas practicas 
+* Ingresar un registro en segundo plano
+* Consultar todos los datos y cargarlos en un RecyclerView
+* Actualizar un registro en Room 
+* Elimar un Registro en ROOM
 
 
 
