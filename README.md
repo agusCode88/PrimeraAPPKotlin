@@ -146,14 +146,18 @@ Que haremos con esta APP ?
 * Nuevo proyecto en Android. 
 * Configuracion del Data Binding. 
 * Reutilizacion de codigo para los CardViews.
-* Trabajar con vectores y estados. 
+* Trabajar con vectores y estados.
+* Modificando el Main Activity  
 * Reutilizacion de Adaptador y ViewHolder. 
 * Configuracion de un RecyclerView en formna de Grilla.
 * Agregando un item de forma dinamica.
 * Elementos visuales de Material : Cuadro de Dialogo , InputText
 * Uso de Shared Preferences en Android.
 * Validando datos de Usuario guardados con Shared Preferences.
+* Agregando boton para usuario invitado.
 * Filtro de RecyCler View para la vista segun las SP. 
+* Borrando un elemento a traves de un gesto .
+
 
 
 23/05/2023 
