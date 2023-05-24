@@ -151,21 +151,24 @@ Que haremos con esta APP ?
 * Reutilizacion de Adaptador y ViewHolder. 
 * Configuracion de un RecyclerView en formna de Grilla.
 * Agregando un item de forma dinamica.
-* Elementos visuales de Material : Cuadro de Dialogo , InputText
-* Uso de Shared Preferences en Android.
-* Validando datos de Usuario guardados con Shared Preferences.
-* Agregando boton para usuario invitado.
-* Filtro de RecyCler View para la vista segun las SP. 
-* Borrando un elemento a traves de un gesto .
+* 
 
 
 
 23/05/2023 
 **Clase 8 : Persistencia de Datos en Android** 
 
+Elementos visuales de Material : Cuadro de Dialogo , InputText
 * Uso de Shared Preferences en Android.
 * Validando datos de Usuario guardados con Shared Preferences.
-* Filtro de RecyCler View para la vista segun las SP 
+* Agregando boton para usuario invitado.
+* Filtro de RecyCler View para la vista segun las SP. 
+* Borrando un elemento a traves de un gesto .
+* Presentacion Rubrica de evaluacion para entrega final de portafolio 
+
+24/05/2023 
+**Clase 9 : Persistencia en Bases de Datos con ROOM ** 
+
 * Utilizacion de SQLITE con ROOM.
 * Creacion de una Entity en Room
 * Data Acces Object(DAO) En ROOM.
@@ -174,9 +177,6 @@ Que haremos con esta APP ?
 * Consultar todos los datos y cargarlos en un RecyclerView
 * Actualizar un registro en Room 
 * Elimar un Registro en ROOM
-
-24/05/2023 
-**Clase 9 : ** 
 
 25/05/2023 
 **Clase 10 : ** 
