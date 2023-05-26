@@ -179,37 +179,41 @@ Elementos visuales de Material : Cuadro de Dialogo , InputText
 * Utilizacion de SQLITE con ROOM.
 * Creacion de una Entity en Room
 * Data Acces Object(DAO) En ROOM.
-* Creacion de la Base de datos con buenas practicas 
-* Ingresar un registro en segundo plano
+* Creacion de la Base de datos con buenas practicas. 
+* Uso de Corrutinas en Kotlin y Android
+* Ingresar un registro en segundo plano.
 * Consultar todos los datos y cargarlos en un RecyclerView
 * Actualizar un registro en Room 
-* Elimar un Registro en ROOM
-
-25/05/2023 
-**Clase 10 : ** 
-
-26/05/2023 
-**Clase 11 : **
-
-27/05/2023 
-**Clase 12 :XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ** 
-
-29/05/2023 
-**Clase 13 : **
+* Eliminar un Registro en ROOM
 
 30/05/2023 
-**Clase 14 : ** 
+**Clase 10 : Formulario de ingreso de datos**
+
+* Layout tipo formulario para guardar una entidad completa 
+* 
 
 31/05/2023 
-**Clase 15 : ** 
+**Clase 11 : **
 
 01/05/2023 
+**Clase 12 :XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX ** 
+
+02/05/2023 
+**Clase 13 : **
+
+03/05/2023 
+**Clase 14 : ** 
+
+05/06/2023 
+**Clase 15 : ** 
+
+06/05/2023 
 **Clase 16 : ** 
 
-02/06/2023 
+07/06/2023 
 **Clase 17 : **
 
-03/06/2023 
+08/06/2023 
 **Clase 18 : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   ** 
 
 
