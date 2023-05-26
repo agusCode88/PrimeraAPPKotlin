@@ -169,6 +169,9 @@ Elementos visuales de Material : Cuadro de Dialogo , InputText
 24/05/2023 
 **Clase 9 : Persistencia en Bases de Datos con ROOM ** 
 
+* Que es un modelo de datos Relacional?
+* Tipos de relaciones en un modelo relacional de bases de datos/
+* Motor de Base de datos SQLITE
 * Utilizacion de SQLITE con ROOM.
 * Creacion de una Entity en Room
 * Data Acces Object(DAO) En ROOM.
