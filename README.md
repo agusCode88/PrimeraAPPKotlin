@@ -166,11 +166,15 @@ Elementos visuales de Material : Cuadro de Dialogo , InputText
 * Borrando un elemento a traves de un gesto .
 * Presentacion Rubrica de evaluacion para entrega final de portafolio 
 
-24/05/2023 
+
+***************************PAUSA DE 3 DIAS ***************************************************
+
+
+29/05/2023 
 **Clase 9 : Persistencia en Bases de Datos con ROOM ** 
 
 * Que es un modelo de datos Relacional?
-* Tipos de relaciones en un modelo relacional de bases de datos/
+* Tipos de relaciones en un modelo relacional de bases de datos
 * Motor de Base de datos SQLITE
 * Utilizacion de SQLITE con ROOM.
 * Creacion de una Entity en Room
