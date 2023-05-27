@@ -189,8 +189,16 @@ Elementos visuales de Material : Cuadro de Dialogo , InputText
 30/05/2023 
 **Clase 10 : Formulario de ingreso de datos**
 
-* Layout tipo formulario para guardar una entidad completa 
-* 
+* Trabajando con FloatActionButton en Android
+* Layout formulario para guardar una entidad completa. 
+* Creacion  del Fragment de Edicion de una entidad
+* Lanzando el nuevo fragmento
+* Agregando Toolbar 
+* Controlando el menu del Toolbar 
+* Mejoras en usabilidad ( Restaurar Boton flotante - Activar el Onback)
+* Persistiendo los datos de la entidad 
+* Guardando un formulario completo en la base de datos
+ 
 
 31/05/2023 
 **Clase 11 : **
