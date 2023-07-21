@@ -59,13 +59,13 @@ class MainActivity : ActionBarActivity() {
             //boton.setBackgroundColor(ContextCompat.getColor(this, com.google.android.material.R.color.abc_decor_view_status_guard))
         }
         // Intent implicito
-        botonCompartir.setOnClickListener({
+        botonCompartir.setOnClickListener {
             var intent = Intent()
             intent.action = Intent.ACTION_SEND
-            intent.putExtra(Intent.EXTRA_TEXT,"Hola te saludo desde la Galaxia")
+            intent.putExtra(Intent.EXTRA_TEXT, "Hola te saludo desde la Galaxia")
             intent.type = "text/plain"
-            startActivity(Intent.createChooser(intent,"Selecciona tu APP:"))
-        })
+            startActivity(Intent.createChooser(intent, "Selecciona tu APP:"))
+        }
 
         binding.btnActivityCamera.setOnClickListener {
             // Vamos a llamar a otra actividad
